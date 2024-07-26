@@ -11,7 +11,7 @@ Hope you know how to create the folder and edit it.
 2. If you are using Ubuntu version 16.04 or below, we recommend you upgrade to a more latest version since Ubuntu no longer provides support for these versions.This [collection of guides](https://www.digitalocean.com/community/tutorial-collections/ubuntu-lts-upgrades) will help you in upgrading your Ubuntu version.
 
 # Build
-## Step 1-Installing the application dependencies 
+## Step 1-Cloning the application dependencies 
 1. Clone this repo  
 
 
@@ -27,7 +27,7 @@ Hope you know how to create the folder and edit it.
     `npm install`
 **Note- All the command need to be run while in the root directory that is node-project.
 
-## Step 2. Create a Dockerimage and the Docker container
+## Step 2. Create a Docker image and the Docker container
  Run the below command to build the image  
 
     sudo docker build -t your_dockerhub_username/nodejs-image-demo .
